@@ -12,8 +12,7 @@
 	position: fixed; 
 	right: 0; 
 	bottom: 0;
-	min-width: 100vh; 
-	min-height: 100vh;
+    	min-height: 130vh;
 	width: auto; 
 	height: auto; 
 	z-index: -1000;
@@ -23,8 +22,7 @@
 	position: fixed; 
 	right: 0; 
 	bottom: 0;
-	min-width: 100vh; 
-	min-height: 100vh;
+	min-height: 130vh;
 	width: auto; 
 	height: auto; 
 	z-index: -1000;
@@ -34,8 +32,7 @@
 	position: fixed; 
 	right: 0; 
 	bottom: 0;
-	min-width: 100vh; 
-	min-height: 100vh;
+    	min-height: 130vh;
 	width: auto; 
 	height: auto; 
 	z-index: -1000;
@@ -45,8 +42,7 @@
 	position: fixed; 
 	right: 0; 
 	bottom: 0;
-	min-width: 100vh; 
-	min-height: 100vh;
+    	min-height: 130vh;
 	width: auto; 
 	height: auto; 
 	z-index: -1000;
