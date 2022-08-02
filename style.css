@@ -1,0 +1,174 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+:root{
+    font-size: 62.5%;
+}    
+/* FASE 2 DO BG*/
+.forest_video{
+	position: fixed; 
+	right: 0; 
+	bottom: 0;
+	min-width: 100vh; 
+	min-height: 100vh;
+	width: auto; 
+	height: auto; 
+	z-index: -1000;
+	background-size: cover; 
+}
+.fireplace_video{
+	position: fixed; 
+	right: 0; 
+	bottom: 0;
+	min-width: 100vh; 
+	min-height: 100vh;
+	width: auto; 
+	height: auto; 
+	z-index: -1000;
+	background-size: cover; 
+}
+.coffeeshop_video{
+	position: fixed; 
+	right: 0; 
+	bottom: 0;
+	min-width: 100vh; 
+	min-height: 100vh;
+	width: auto; 
+	height: auto; 
+	z-index: -1000;
+	background-size: cover; 
+}
+.rain_video{
+	position: fixed; 
+	right: 0; 
+	bottom: 0;
+	min-width: 100vh; 
+	min-height: 100vh;
+	width: auto; 
+	height: auto; 
+	z-index: -1000;
+	background-size: cover; 
+}
+/* FASE FIM 2 DO BG*/
+body{
+    display: grid;
+    place-items: center;
+    height: 100vh;
+}
+
+main{
+    display: flex;
+    gap: 19.2rem;
+    margin: auto;
+    align-items: center;
+}
+
+.controls{
+    display: flex;
+    gap: 4rem;
+    margin-top: 1.7rem;
+
+}
+
+.controls button{
+    border: none;
+    background: none; 
+   
+    cursor: pointer;
+
+    transition: all 0.5s;
+    cursor: pointer;
+
+}
+
+.controls button:hover{
+    -webkit-transform: scale(1.2);
+    transform: scale(1.2);
+    filter: invert(50%);
+}
+
+.time{
+    display: flex;
+    
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12.6rem;
+    line-height: 14.8rem;
+
+    text-align: center;
+
+    color: #323238;
+}
+.seasons {
+    display: flex;
+    width: 30.8rem;
+    gap: 3.2rem;
+    flex-wrap: wrap;
+}
+.seasons button{
+    width: 13.8rem;
+    height: 15.2rem;
+    border-radius: 2.4rem;
+    background: #E1E1E6;
+    border: none;
+    cursor: pointer;
+}
+
+ 
+.seasons button:hover, .seasons svg:hover path{
+    background-color: #02799D;
+    fill: #FFFFFF;
+    transition: 0.25s;
+}
+
+footer h2 a{
+    color: #858484;
+}
+footer h2 a:hover{
+    color: #a8a8d6;
+}
+footer{
+    display: flex;
+    font-family: 'Roboto';
+    flex-direction: column;
+    align-items: center;
+    color: #858484;
+}
+footer div{
+    border: .1rem solid #474949;
+    width: 56.8rem;
+    margin-bottom: 2.7rem;
+}
+
+@media (max-width: 830px){
+    body{
+        height: 30vh;
+    }
+    main{
+        display: flex;
+        gap: 3.2rem;
+        margin: auto;
+        align-items: center;
+        flex-direction: column;
+    }
+
+   .controls{
+    margin-top: 0.3rem;
+    justify-content: center;
+   }
+
+   button:hover{
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
+    }
+    footer{
+        margin-top:3.2rem;
+    }
+    footer div{
+        width: 30rem;
+    }
+}
